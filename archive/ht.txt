@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pranam Enterprise – Supplying Confidence in Industrial Hardware</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Pranam Enterprise</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#offerings">Our Offerings</a></li>
+        <li><a href="#coatings">Industrial Coatings</a></li>
+        <li><a href="#why">Why Choose Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1>Supplying Confidence in Industrial Hardware</h1>
+    <p>We are pleased to introduce Pranam Enterprise as one of the leading suppliers of industrial hardware, committed to offering prompt and reliable service by maintaining a robust inventory to meet our clients' immediate requirements.</p>
+    <a class="cta-btn" href="#contact">Get a Quote</a>
+  </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Based in Ankleshwar, Bharuch district, Gujarat, Pranam Enterprise has established a trusted reputation for timely supply of quality industrial hardware.<br>
+      We prioritize client satisfaction and maintain extensive inventory levels to meet urgent and ongoing industrial needs.<br>
+      Serving Chemical, Pharma, Power, and Infrastructure sectors.
+    </p>
+  </section>
+  <section id="offerings">
+    <h2>Our Offerings</h2>
+    <ul>
+      <li>Asbestos Glands</li>
+      <li>Non-Asbestos Glands</li>
+      <li>Graphited Glands</li>
+      <li>Teflon Glands</li>
+      <li>PTFE Glands</li>
+      <li>Zero Leak Glands</li>
+      <li>Fire-Resistant Glands</li>
+    </ul>
+  </section>
+  <section id="coatings">
+    <h2>Industrial Coatings</h2>
+    <p>
+      Authorized Supplier for Asian Paints PPG Pvt Ltd (Industrial Paints).<br>
+      Pranam Enterprise offers the full METACARE range of surface-tolerant coatings:
+    </p>
+    <ul>
+      <li><strong>Acrylic Coatings:</strong> Asiacryl</li>
+      <li><strong>Epoxy Coatings:</strong> Apcodur</li>
+      <li><strong>Tank Coatings:</strong> Apcoguard</li>
+      <li><strong>Heat Resistant Coatings:</strong> Apcotherm, Acrysil</li>
+      <li><strong>Floor Coatings:</strong> Apcoflor</li>
+    </ul>
+  </section>
+  <section id="why">
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>Prompt, reliable supply tailored to urgent and bulk requirements</li>
+      <li>Robust product inventory ensuring no downtime</li>
+      <li>Expertise in industrial hardware and surface coatings</li>
+      <li>Trusted partner for leading organizations</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      <strong>Ajay Patel – Partner</strong><br>
+      Shed No. A2/2502, GIDC Estate, Ankleshwar, Gujarat<br>
+      Email: <a href="mailto:pranam_ent@yahoo.com">pranam_ent@yahoo.com</a><br>
+      Website: <a href="http://www.pranamenterprise.com">www.pranamenterprise.com</a><br>
+      Mobile: +91 99789 91070
+    </p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="text" placeholder="Your Phone">
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <!-- Optionally embed Google Map here -->
+  </section>
+  <footer>
+    <p>&copy; Pranam Enterprise - All Rights Reserved</p>
+  </footer>
+</body>
+</html>
