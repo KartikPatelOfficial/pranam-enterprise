@@ -1,4 +1,4 @@
-/* Pranam Traders — minimal interactions */
+/* Pranam Enterprise — minimal interactions */
 window.clientFallback = function (initials) {
   var svg =
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80">' +

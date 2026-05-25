@@ -1,5 +1,5 @@
 /* =========================================================
-   PRANAM TRADERS — Industrial Materials & Paint Solutions
+   PRANAM ENTERPRISE — Industrial Materials & Paint Solutions
    ========================================================= */
 
 :root {
@@ -29,7 +29,7 @@
   --radius-card: 8px;
 
   --container: 1240px;
-  --header-h: 76px;
+  --header-h: 92px;
 
   --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
   --shadow:    0 6px 24px rgba(15, 23, 42, 0.08);
@@ -137,7 +137,7 @@ section[id], #top { scroll-margin-top: calc(var(--header-h) + 12px); }
   flex-shrink: 0;
 }
 .brand-logo {
-  height: 56px; width: auto;
+  height: 72px; width: auto;
   display: block;
   object-fit: contain;
 }
@@ -805,7 +805,7 @@ section[id], #top { scroll-margin-top: calc(var(--header-h) + 12px); }
   margin-bottom: 12px;
 }
 .foot-brand .brand-logo {
-  height: 64px; width: auto;
+  height: 84px; width: auto;
   display: block;
   background: #fff;
   border-radius: 8px;
@@ -915,8 +915,8 @@ section[id], #top { scroll-margin-top: calc(var(--header-h) + 12px); }
 }
 
 @media (max-width: 767px) {
-  :root { --header-h: 64px; }
-  .brand-logo { height: 44px; }
+  :root { --header-h: 80px; }
+  .brand-logo { height: 60px; }
   .about-grid,
   .div-grid,
   .contact-grid { grid-template-columns: 1fr; }
