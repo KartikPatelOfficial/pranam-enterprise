@@ -1,4 +1,14 @@
 /* Pranam Traders — minimal interactions */
+window.clientFallback = function (initials) {
+  var svg =
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80">' +
+      '<rect width="160" height="80" rx="6" fill="#11233D"/>' +
+      '<text x="80" y="50" text-anchor="middle" font-family="Manrope, Inter, sans-serif" ' +
+        'font-size="26" font-weight="800" fill="#ffffff" letter-spacing="2">' + initials + '</text>' +
+    '</svg>';
+  return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+};
+
 (function () {
   'use strict';
 
