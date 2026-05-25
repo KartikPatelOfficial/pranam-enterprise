@@ -1,4 +1,4 @@
-/* Pranam Enterprise — minimal interactions */
+/* Pranam Traders — minimal interactions */
 (function () {
   'use strict';
 
@@ -9,7 +9,7 @@
   // 2. Mobile nav toggle
   var header = document.querySelector('.site-header');
   var toggle = header && header.querySelector('.nav-toggle');
-  var nav = header && header.querySelector('.primary-nav');
+  var nav    = header && header.querySelector('.primary-nav');
 
   function setOpen(open) {
     if (!header) return;
@@ -49,7 +49,7 @@
     revealNodes.forEach(function (n) { io.observe(n); });
   }
 
-  // 4. Active section highlight in nav
+  // 4. Scroll-spy nav active state
   var navLinks = document.querySelectorAll('.primary-nav a[href^="#"]');
   var sections = [];
   navLinks.forEach(function (link) {
@@ -72,7 +72,7 @@
     sections.forEach(function (s) { spy.observe(s.el); });
   }
 
-  // 5. Contact form submit (Web3Forms)
+  // 5. Contact form (Web3Forms)
   var form = document.getElementById('contact-form');
   var status = document.getElementById('form-status');
   if (form) {
@@ -88,7 +88,9 @@
 
       var data = new FormData(form);
       fetch('https://api.web3forms.com/submit', { method: 'POST', body: data })
-        .then(function (res) { return res.json().catch(function () { return {}; }).then(function (j) { return { ok: res.ok, body: j }; }); })
+        .then(function (res) {
+          return res.json().catch(function () { return {}; }).then(function (j) { return { ok: res.ok, body: j }; });
+        })
         .then(function (r) {
           if (r.ok && r.body && r.body.success !== false) {
             form.reset();
