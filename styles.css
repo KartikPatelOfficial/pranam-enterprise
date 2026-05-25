@@ -407,7 +407,7 @@ section[id], #top { scroll-margin-top: calc(var(--header-h) + 12px); }
   position: absolute; inset: 0; z-index: -1;
 }
 .div-card.is-hardware::before {
-  background-image: url('assets/industrical Factories.png');
+  background-image: url('assets/industries/industrial-factories.png');
 }
 .div-card.is-hardware::after {
   background: linear-gradient(100deg, rgba(11,26,47,.96) 0%, rgba(11,26,47,.82) 35%, rgba(11,26,47,.4) 75%, rgba(11,26,47,0) 100%);
@@ -416,7 +416,7 @@ section[id], #top { scroll-margin-top: calc(var(--header-h) + 12px); }
   background: var(--red-600);
 }
 .div-card.is-paint::before {
-  background-image: url('assets/painting-engineer.png');
+  background-image: url('assets/divisions/painting-engineer.png');
 }
 .div-card.is-paint::after {
   background: linear-gradient(100deg, rgba(200,32,43,.96) 0%, rgba(200,32,43,.82) 35%, rgba(200,32,43,.4) 75%, rgba(200,32,43,0) 100%);
