@@ -796,7 +796,7 @@ section[id], #top { scroll-margin-top: calc(var(--header-h) + 12px); }
 }
 .foot-grid {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1.1fr 1.1fr 1.3fr;
+  grid-template-columns: 1.6fr 1fr 1.3fr;
   gap: 24px;
   padding-bottom: 28px;
 }
@@ -873,7 +873,7 @@ section[id], #top { scroll-margin-top: calc(var(--header-h) + 12px); }
 @media (max-width: 1199px) {
   .products-grid { grid-template-columns: repeat(4, 1fr); }
   .why-grid { grid-template-columns: repeat(3, 1fr); gap: 32px 18px; }
-  .foot-grid { grid-template-columns: 1.4fr 1fr 1fr; }
+  .foot-grid { grid-template-columns: 1fr 1fr; }
   .foot-col-brand { grid-column: 1 / -1; }
 }
 
